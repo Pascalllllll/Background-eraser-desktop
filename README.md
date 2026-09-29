@@ -4,12 +4,18 @@ A background eraser that runs in your browser. Open a photo, brush away what you
 
 Your photo stays on your device. Nothing is uploaded.
 
+![Pluck's start screen in dark theme: "Erase exactly what you want" with Choose a photo and Use a test image buttons, the tool rail on the left and eraser settings on the right](screenshot-start.png)
+
 ## Tools
 
 - **Erase** and **Restore**: paint pixels away or bring them back from the original. Size, hardness and strength are adjustable.
 - **Auto**: finds the main subject and removes either the background or the subject. The outline is snapped to real edges in the photo, so hair and thin shapes stay intact.
 - **Sniper**: click a color to erase it, either the connected area or every match in the photo. Colors are compared in CIELAB, so the tolerance slider tracks what your eye sees. There is also a brush mode that erases only the target color under the brush.
 - **Move**: pan around the photo. Hold Space to pan with any tool, or use two fingers on a touch screen.
+
+| Sniper, before the click | After one click |
+|---|---|
+| ![An apple on a flat mint background with the Sniper loupe reading #a0d5c6 over the background](screenshot-sniper-before.png) | ![The same apple with the mint background and its shadow gone, showing the transparency grid behind it](screenshot-sniper-after.png) |
 
 You can hold `\` to compare with the original, trim empty edges on download, and undo any step.
 
